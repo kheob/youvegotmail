@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3FBA0071DBDDE8200C24F53"
-               BuildableName = "You&apos;ve Got Mail.app"
-               BlueprintName = "You&apos;ve Got Mail"
-               ReferencedContainer = "container:You&apos;ve Got Mail.xcodeproj">
+               BuildableName = "You Got Mail.app"
+               BlueprintName = "You Got Mail"
+               ReferencedContainer = "container:You Got Mail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3FBA01E1DBDDE8300C24F53"
-               BuildableName = "You&apos;ve Got MailTests.xctest"
-               BlueprintName = "You&apos;ve Got MailTests"
-               ReferencedContainer = "container:You&apos;ve Got Mail.xcodeproj">
+               BuildableName = "You Got Mail.xctest"
+               BlueprintName = "You Got MailTests"
+               ReferencedContainer = "container:You Got Mail.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3FBA0291DBDDE8300C24F53"
-               BuildableName = "You&apos;ve Got MailUITests.xctest"
-               BlueprintName = "You&apos;ve Got MailUITests"
-               ReferencedContainer = "container:You&apos;ve Got Mail.xcodeproj">
+               BuildableName = "You Got Mail.xctest"
+               BlueprintName = "You Got MailUITests"
+               ReferencedContainer = "container:You Got Mail.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B3FBA0071DBDDE8200C24F53"
-            BuildableName = "You&apos;ve Got Mail.app"
-            BlueprintName = "You&apos;ve Got Mail"
-            ReferencedContainer = "container:You&apos;ve Got Mail.xcodeproj">
+            BuildableName = "You Got Mail.app"
+            BlueprintName = "You Got Mail"
+            ReferencedContainer = "container:You Got Mail.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B3FBA0071DBDDE8200C24F53"
-            BuildableName = "You&apos;ve Got Mail.app"
-            BlueprintName = "You&apos;ve Got Mail"
-            ReferencedContainer = "container:You&apos;ve Got Mail.xcodeproj">
+            BuildableName = "You Got Mail.app"
+            BlueprintName = "You Got Mail"
+            ReferencedContainer = "container:You Got Mail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B3FBA0071DBDDE8200C24F53"
-            BuildableName = "You&apos;ve Got Mail.app"
-            BlueprintName = "You&apos;ve Got Mail"
-            ReferencedContainer = "container:You&apos;ve Got Mail.xcodeproj">
+            BuildableName = "You Got Mail.app"
+            BlueprintName = "You Got Mail"
+            ReferencedContainer = "container:You Got Mail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836AFDD78A13B2C54E815F79 /* Pods_You_Got_MailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E665F28EC11A7A33B90C16 /* Pods_You_Got_MailUITests.framework */; };
+		B30097F01DCF30A20082F2F0 /* LightMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30097EF1DCF30A20082F2F0 /* LightMQTT.swift */; };
+		B30390481DD1BE5600DE100A /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30390471DD1BE5600DE100A /* SwiftSpinner.swift */; };
+		B324DB021DD20283007C6499 /* TodayPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324DB011DD20283007C6499 /* TodayPhotoCollectionViewController.swift */; };
+		B324DB041DD20292007C6499 /* TodayPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324DB031DD20292007C6499 /* TodayPhotoCell.swift */; };
+		B35E1EF31DCF10C6009F020D /* LoadMoreCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1EF21DCF10C6009F020D /* LoadMoreCollectionReusableView.swift */; };
+		B35E1EF71DCF26A6009F020D /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E1EF61DCF26A6009F020D /* KDCircularProgress.swift */; };
+		B3B185F61DC4814800B88F26 /* MJPEGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B185F51DC4814800B88F26 /* MJPEGImageView.swift */; };
+		B3B185FB1DC4815200B88F26 /* ConnectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B185F71DC4815200B88F26 /* ConnectionData.swift */; };
+		B3B185FC1DC4815200B88F26 /* MjepgConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B185F81DC4815200B88F26 /* MjepgConnection.swift */; };
+		B3B185FD1DC4815200B88F26 /* URLConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B185F91DC4815200B88F26 /* URLConnection.swift */; };
+		B3B185FE1DC4815200B88F26 /* URLConnectionDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B185FA1DC4815200B88F26 /* URLConnectionDataDelegate.swift */; };
+		B3C3C73A1DBDE08D00E47571 /* HistoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3C7391DBDE08D00E47571 /* HistoryCollectionViewController.swift */; };
+		B3C3C73C1DBDE1D100E47571 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3C73B1DBDE1D100E47571 /* HistoryCell.swift */; };
+		B3C3C73E1DBDEEBF00E47571 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3C73D1DBDEEBF00E47571 /* HistoryViewController.swift */; };
+		B3C3C7401DBDF07300E47571 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3C73F1DBDF07300E47571 /* CameraViewController.swift */; };
+		B3FBA00C1DBDDE8200C24F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBA00B1DBDDE8200C24F53 /* AppDelegate.swift */; };
+		B3FBA00E1DBDDE8200C24F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBA00D1DBDDE8200C24F53 /* ViewController.swift */; };
+		B3FBA0111DBDDE8300C24F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBA00F1DBDDE8300C24F53 /* Main.storyboard */; };
+		B3FBA0141DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3FBA0121DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodeld */; };
+		B3FBA0161DBDDE8300C24F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FBA0151DBDDE8300C24F53 /* Assets.xcassets */; };
+		B3FBA0191DBDDE8300C24F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBA0171DBDDE8300C24F53 /* LaunchScreen.storyboard */; };
+		B3FBA0241DBDDE8300C24F53 /* You_ve_Got_MailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBA0231DBDDE8300C24F53 /* You_ve_Got_MailTests.swift */; };
+		B3FBA02F1DBDDE8300C24F53 /* You_ve_Got_MailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBA02E1DBDDE8300C24F53 /* You_ve_Got_MailUITests.swift */; };
+		BEEE464E418B7B35B3293816 /* Pods_You_Got_MailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9DFCAA4F6302E2D30F292D /* Pods_You_Got_MailTests.framework */; };
+		E2FC8AC218D005163A222AD2 /* Pods_You_Got_Mail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E882BCF1ABBAFBD81DE4C9 /* Pods_You_Got_Mail.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FBA0201DBDDE8300C24F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FBA0001DBDDE8200C24F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FBA0071DBDDE8200C24F53;
+			remoteInfo = "You've Got Mail";
+		};
+		B3FBA02B1DBDDE8300C24F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FBA0001DBDDE8200C24F53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FBA0071DBDDE8200C24F53;
+			remoteInfo = "You've Got Mail";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0576353F9D79540E408EBF48 /* Pods-You Got Mail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-You Got Mail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-You Got Mail/Pods-You Got Mail.debug.xcconfig"; sourceTree = "<group>"; };
+		08E5612821A45FEAB3A5DB83 /* Pods-You Got MailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-You Got MailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-You Got MailTests/Pods-You Got MailTests.release.xcconfig"; sourceTree = "<group>"; };
+		29E665F28EC11A7A33B90C16 /* Pods_You_Got_MailUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_You_Got_MailUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E882BCF1ABBAFBD81DE4C9 /* Pods_You_Got_Mail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_You_Got_Mail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA350342AF0E199074D64DA /* Pods-You Got Mail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-You Got Mail.release.xcconfig"; path = "Pods/Target Support Files/Pods-You Got Mail/Pods-You Got Mail.release.xcconfig"; sourceTree = "<group>"; };
+		9FFF39313EE0BCD77DDC8209 /* Pods-You Got MailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-You Got MailUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-You Got MailUITests/Pods-You Got MailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD9DFCAA4F6302E2D30F292D /* Pods_You_Got_MailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_You_Got_MailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9368F399E22BFF7550B319 /* Pods-You Got MailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-You Got MailUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-You Got MailUITests/Pods-You Got MailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B30097EF1DCF30A20082F2F0 /* LightMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightMQTT.swift; sourceTree = "<group>"; };
+		B30390471DD1BE5600DE100A /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		B324DB011DD20283007C6499 /* TodayPhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayPhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		B324DB031DD20292007C6499 /* TodayPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayPhotoCell.swift; sourceTree = "<group>"; };
+		B35E1EF21DCF10C6009F020D /* LoadMoreCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreCollectionReusableView.swift; sourceTree = "<group>"; };
+		B35E1EF61DCF26A6009F020D /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		B3B185F51DC4814800B88F26 /* MJPEGImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJPEGImageView.swift; sourceTree = "<group>"; };
+		B3B185F71DC4815200B88F26 /* ConnectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionData.swift; sourceTree = "<group>"; };
+		B3B185F81DC4815200B88F26 /* MjepgConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MjepgConnection.swift; sourceTree = "<group>"; };
+		B3B185F91DC4815200B88F26 /* URLConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConnection.swift; sourceTree = "<group>"; };
+		B3B185FA1DC4815200B88F26 /* URLConnectionDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConnectionDataDelegate.swift; sourceTree = "<group>"; };
+		B3C3C7391DBDE08D00E47571 /* HistoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewController.swift; sourceTree = "<group>"; };
+		B3C3C73B1DBDE1D100E47571 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		B3C3C73D1DBDEEBF00E47571 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B3C3C73F1DBDF07300E47571 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B3FBA0081DBDDE8200C24F53 /* You Got Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Got Mail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FBA00B1DBDDE8200C24F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3FBA00D1DBDDE8200C24F53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3FBA0101DBDDE8300C24F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FBA0131DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = You_ve_Got_Mail.xcdatamodel; sourceTree = "<group>"; };
+		B3FBA0151DBDDE8300C24F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FBA0181DBDDE8300C24F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3FBA01A1DBDDE8300C24F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FBA01F1DBDDE8300C24F53 /* You Got Mail.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Got Mail.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FBA0231DBDDE8300C24F53 /* You_ve_Got_MailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_ve_Got_MailTests.swift; sourceTree = "<group>"; };
+		B3FBA0251DBDDE8300C24F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FBA02A1DBDDE8300C24F53 /* You Got Mail.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Got Mail.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FBA02E1DBDDE8300C24F53 /* You_ve_Got_MailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_ve_Got_MailUITests.swift; sourceTree = "<group>"; };
+		B3FBA0301DBDDE8300C24F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54F431659EA72C69378753B /* Pods-You Got MailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-You Got MailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-You Got MailTests/Pods-You Got MailTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FBA0051DBDDE8200C24F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FC8AC218D005163A222AD2 /* Pods_You_Got_Mail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBA01C1DBDDE8300C24F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEE464E418B7B35B3293816 /* Pods_You_Got_MailTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBA0271DBDDE8300C24F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836AFDD78A13B2C54E815F79 /* Pods_You_Got_MailUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB6DA603B3A023B07E64D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40E882BCF1ABBAFBD81DE4C9 /* Pods_You_Got_Mail.framework */,
+				AD9DFCAA4F6302E2D30F292D /* Pods_You_Got_MailTests.framework */,
+				29E665F28EC11A7A33B90C16 /* Pods_You_Got_MailUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C12E7BB730F09C3B29273E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0576353F9D79540E408EBF48 /* Pods-You Got Mail.debug.xcconfig */,
+				5FA350342AF0E199074D64DA /* Pods-You Got Mail.release.xcconfig */,
+				B54F431659EA72C69378753B /* Pods-You Got MailTests.debug.xcconfig */,
+				08E5612821A45FEAB3A5DB83 /* Pods-You Got MailTests.release.xcconfig */,
+				AE9368F399E22BFF7550B319 /* Pods-You Got MailUITests.debug.xcconfig */,
+				9FFF39313EE0BCD77DDC8209 /* Pods-You Got MailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3B185EC1DC480EB00B88F26 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B3B185F51DC4814800B88F26 /* MJPEGImageView.swift */,
+				B3B185F71DC4815200B88F26 /* ConnectionData.swift */,
+				B3B185F81DC4815200B88F26 /* MjepgConnection.swift */,
+				B3B185F91DC4815200B88F26 /* URLConnection.swift */,
+				B3B185FA1DC4815200B88F26 /* URLConnectionDataDelegate.swift */,
+				B35E1EF61DCF26A6009F020D /* KDCircularProgress.swift */,
+				B30097EF1DCF30A20082F2F0 /* LightMQTT.swift */,
+				B30390471DD1BE5600DE100A /* SwiftSpinner.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B3FB9FFF1DBDDE8200C24F53 = {
+			isa = PBXGroup;
+			children = (
+				B3FBA00A1DBDDE8200C24F53 /* You've Got Mail */,
+				B3FBA0221DBDDE8300C24F53 /* You've Got MailTests */,
+				B3FBA02D1DBDDE8300C24F53 /* You've Got MailUITests */,
+				B3FBA0091DBDDE8200C24F53 /* Products */,
+				8C12E7BB730F09C3B29273E6 /* Pods */,
+				3AB6DA603B3A023B07E64D04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FBA0091DBDDE8200C24F53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBA0081DBDDE8200C24F53 /* You Got Mail.app */,
+				B3FBA01F1DBDDE8300C24F53 /* You Got Mail.xctest */,
+				B3FBA02A1DBDDE8300C24F53 /* You Got Mail.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FBA00A1DBDDE8200C24F53 /* You've Got Mail */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBA00F1DBDDE8300C24F53 /* Main.storyboard */,
+				B3FBA00B1DBDDE8200C24F53 /* AppDelegate.swift */,
+				B3FBA00D1DBDDE8200C24F53 /* ViewController.swift */,
+				B3C3C73F1DBDF07300E47571 /* CameraViewController.swift */,
+				B324DB011DD20283007C6499 /* TodayPhotoCollectionViewController.swift */,
+				B324DB031DD20292007C6499 /* TodayPhotoCell.swift */,
+				B3C3C7391DBDE08D00E47571 /* HistoryCollectionViewController.swift */,
+				B3C3C73B1DBDE1D100E47571 /* HistoryCell.swift */,
+				B35E1EF21DCF10C6009F020D /* LoadMoreCollectionReusableView.swift */,
+				B3C3C73D1DBDEEBF00E47571 /* HistoryViewController.swift */,
+				B3B185EC1DC480EB00B88F26 /* Helper */,
+				B3FBA0151DBDDE8300C24F53 /* Assets.xcassets */,
+				B3FBA0171DBDDE8300C24F53 /* LaunchScreen.storyboard */,
+				B3FBA01A1DBDDE8300C24F53 /* Info.plist */,
+				B3FBA0121DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodeld */,
+			);
+			path = "You've Got Mail";
+			sourceTree = "<group>";
+		};
+		B3FBA0221DBDDE8300C24F53 /* You've Got MailTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBA0231DBDDE8300C24F53 /* You_ve_Got_MailTests.swift */,
+				B3FBA0251DBDDE8300C24F53 /* Info.plist */,
+			);
+			path = "You've Got MailTests";
+			sourceTree = "<group>";
+		};
+		B3FBA02D1DBDDE8300C24F53 /* You've Got MailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBA02E1DBDDE8300C24F53 /* You_ve_Got_MailUITests.swift */,
+				B3FBA0301DBDDE8300C24F53 /* Info.plist */,
+			);
+			path = "You've Got MailUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FBA0071DBDDE8200C24F53 /* You Got Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FBA0331DBDDE8300C24F53 /* Build configuration list for PBXNativeTarget "You Got Mail" */;
+			buildPhases = (
+				12C6257CD3C5DACFFB9125C6 /* [CP] Check Pods Manifest.lock */,
+				B3FBA0041DBDDE8200C24F53 /* Sources */,
+				B3FBA0051DBDDE8200C24F53 /* Frameworks */,
+				B3FBA0061DBDDE8200C24F53 /* Resources */,
+				D11DFEA4FA971D8DCC93E63D /* [CP] Embed Pods Frameworks */,
+				BFA748DE9B5FA10570548033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "You Got Mail";
+			productName = "You've Got Mail";
+			productReference = B3FBA0081DBDDE8200C24F53 /* You Got Mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3FBA01E1DBDDE8300C24F53 /* You Got MailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FBA0361DBDDE8300C24F53 /* Build configuration list for PBXNativeTarget "You Got MailTests" */;
+			buildPhases = (
+				B2EABC057D8D1E6EC3B15671 /* [CP] Check Pods Manifest.lock */,
+				B3FBA01B1DBDDE8300C24F53 /* Sources */,
+				B3FBA01C1DBDDE8300C24F53 /* Frameworks */,
+				B3FBA01D1DBDDE8300C24F53 /* Resources */,
+				3A003C3C4ADA37D5EAB348FF /* [CP] Embed Pods Frameworks */,
+				A0719B3AE6C49981BED7D532 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FBA0211DBDDE8300C24F53 /* PBXTargetDependency */,
+			);
+			name = "You Got MailTests";
+			productName = "You've Got MailTests";
+			productReference = B3FBA01F1DBDDE8300C24F53 /* You Got Mail.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3FBA0291DBDDE8300C24F53 /* You Got MailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FBA0391DBDDE8300C24F53 /* Build configuration list for PBXNativeTarget "You Got MailUITests" */;
+			buildPhases = (
+				5146A4528F300D12214AD992 /* [CP] Check Pods Manifest.lock */,
+				B3FBA0261DBDDE8300C24F53 /* Sources */,
+				B3FBA0271DBDDE8300C24F53 /* Frameworks */,
+				B3FBA0281DBDDE8300C24F53 /* Resources */,
+				2F52BE1B436A4D2984BFA43D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FBA02C1DBDDE8300C24F53 /* PBXTargetDependency */,
+			);
+			name = "You Got MailUITests";
+			productName = "You've Got MailUITests";
+			productReference = B3FBA02A1DBDDE8300C24F53 /* You Got Mail.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FBA0001DBDDE8200C24F53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Qingzhou Wang";
+				TargetAttributes = {
+					B3FBA0071DBDDE8200C24F53 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 77PYHN5987;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					B3FBA01E1DBDDE8300C24F53 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = B3FBA0071DBDDE8200C24F53;
+					};
+					B3FBA0291DBDDE8300C24F53 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = B3FBA0071DBDDE8200C24F53;
+					};
+				};
+			};
+			buildConfigurationList = B3FBA0031DBDDE8200C24F53 /* Build configuration list for PBXProject "You Got Mail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FB9FFF1DBDDE8200C24F53;
+			productRefGroup = B3FBA0091DBDDE8200C24F53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FBA0071DBDDE8200C24F53 /* You Got Mail */,
+				B3FBA01E1DBDDE8300C24F53 /* You Got MailTests */,
+				B3FBA0291DBDDE8300C24F53 /* You Got MailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FBA0061DBDDE8200C24F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FBA0191DBDDE8300C24F53 /* LaunchScreen.storyboard in Resources */,
+				B3FBA0161DBDDE8300C24F53 /* Assets.xcassets in Resources */,
+				B3FBA0111DBDDE8300C24F53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBA01D1DBDDE8300C24F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBA0281DBDDE8300C24F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C6257CD3C5DACFFB9125C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F52BE1B436A4D2984BFA43D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-You Got MailUITests/Pods-You Got MailUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A003C3C4ADA37D5EAB348FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-You Got MailTests/Pods-You Got MailTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5146A4528F300D12214AD992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0719B3AE6C49981BED7D532 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-You Got MailTests/Pods-You Got MailTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EABC057D8D1E6EC3B15671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA748DE9B5FA10570548033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-You Got Mail/Pods-You Got Mail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11DFEA4FA971D8DCC93E63D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-You Got Mail/Pods-You Got Mail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FBA0041DBDDE8200C24F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B185F61DC4814800B88F26 /* MJPEGImageView.swift in Sources */,
+				B3B185FB1DC4815200B88F26 /* ConnectionData.swift in Sources */,
+				B3FBA00E1DBDDE8200C24F53 /* ViewController.swift in Sources */,
+				B3C3C73A1DBDE08D00E47571 /* HistoryCollectionViewController.swift in Sources */,
+				B3FBA00C1DBDDE8200C24F53 /* AppDelegate.swift in Sources */,
+				B324DB021DD20283007C6499 /* TodayPhotoCollectionViewController.swift in Sources */,
+				B30390481DD1BE5600DE100A /* SwiftSpinner.swift in Sources */,
+				B3C3C73E1DBDEEBF00E47571 /* HistoryViewController.swift in Sources */,
+				B30097F01DCF30A20082F2F0 /* LightMQTT.swift in Sources */,
+				B35E1EF71DCF26A6009F020D /* KDCircularProgress.swift in Sources */,
+				B3B185FE1DC4815200B88F26 /* URLConnectionDataDelegate.swift in Sources */,
+				B3C3C7401DBDF07300E47571 /* CameraViewController.swift in Sources */,
+				B35E1EF31DCF10C6009F020D /* LoadMoreCollectionReusableView.swift in Sources */,
+				B3B185FC1DC4815200B88F26 /* MjepgConnection.swift in Sources */,
+				B3B185FD1DC4815200B88F26 /* URLConnection.swift in Sources */,
+				B3FBA0141DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodeld in Sources */,
+				B324DB041DD20292007C6499 /* TodayPhotoCell.swift in Sources */,
+				B3C3C73C1DBDE1D100E47571 /* HistoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBA01B1DBDDE8300C24F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FBA0241DBDDE8300C24F53 /* You_ve_Got_MailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FBA0261DBDDE8300C24F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FBA02F1DBDDE8300C24F53 /* You_ve_Got_MailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3FBA0211DBDDE8300C24F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FBA0071DBDDE8200C24F53 /* You Got Mail */;
+			targetProxy = B3FBA0201DBDDE8300C24F53 /* PBXContainerItemProxy */;
+		};
+		B3FBA02C1DBDDE8300C24F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FBA0071DBDDE8200C24F53 /* You Got Mail */;
+			targetProxy = B3FBA02B1DBDDE8300C24F53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3FBA00F1DBDDE8300C24F53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FBA0101DBDDE8300C24F53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FBA0171DBDDE8300C24F53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FBA0181DBDDE8300C24F53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FBA0311DBDDE8300C24F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3FBA0321DBDDE8300C24F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FBA0341DBDDE8300C24F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0576353F9D79540E408EBF48 /* Pods-You Got Mail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "You've Got Mail/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5140.You-ve-Got-Mail";
+				PRODUCT_NAME = "You Got Mail";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3FBA0351DBDDE8300C24F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA350342AF0E199074D64DA /* Pods-You Got Mail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "You've Got Mail/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5140.You-ve-Got-Mail";
+				PRODUCT_NAME = "You Got Mail";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3FBA0371DBDDE8300C24F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54F431659EA72C69378753B /* Pods-You Got MailTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "You've Got MailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5140.You-ve-Got-MailTests";
+				PRODUCT_NAME = "You Got Mail";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Got Mail.app/You Got Mail";
+			};
+			name = Debug;
+		};
+		B3FBA0381DBDDE8300C24F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E5612821A45FEAB3A5DB83 /* Pods-You Got MailTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "You've Got MailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5140.You-ve-Got-MailTests";
+				PRODUCT_NAME = "You Got Mail";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Got Mail.app/You Got Mail";
+			};
+			name = Release;
+		};
+		B3FBA03A1DBDDE8300C24F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9368F399E22BFF7550B319 /* Pods-You Got MailUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "You've Got MailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5140.You-ve-Got-MailUITests";
+				PRODUCT_NAME = "You Got Mail";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "You've Got Mail";
+			};
+			name = Debug;
+		};
+		B3FBA03B1DBDDE8300C24F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFF39313EE0BCD77DDC8209 /* Pods-You Got MailUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "You've Got MailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIT5140.You-ve-Got-MailUITests";
+				PRODUCT_NAME = "You Got Mail";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "You've Got Mail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FBA0031DBDDE8200C24F53 /* Build configuration list for PBXProject "You Got Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FBA0311DBDDE8300C24F53 /* Debug */,
+				B3FBA0321DBDDE8300C24F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FBA0331DBDDE8300C24F53 /* Build configuration list for PBXNativeTarget "You Got Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FBA0341DBDDE8300C24F53 /* Debug */,
+				B3FBA0351DBDDE8300C24F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FBA0361DBDDE8300C24F53 /* Build configuration list for PBXNativeTarget "You Got MailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FBA0371DBDDE8300C24F53 /* Debug */,
+				B3FBA0381DBDDE8300C24F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FBA0391DBDDE8300C24F53 /* Build configuration list for PBXNativeTarget "You Got MailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FBA03A1DBDDE8300C24F53 /* Debug */,
+				B3FBA03B1DBDDE8300C24F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3FBA0121DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3FBA0131DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodel */,
+			);
+			currentVersion = B3FBA0131DBDDE8300C24F53 /* You_ve_Got_Mail.xcdatamodel */;
+			path = You_ve_Got_Mail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3FBA0001DBDDE8200C24F53 /* Project object */;
+}
